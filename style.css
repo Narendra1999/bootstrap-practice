@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:cadetblue;
+
+}
+.nav-list{
+    background-color: black;
+    margin: 0px;
+    padding:1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nav-item{
+    list-style:none;
+    margin-right: 2rem;
+}
+.nave-item a {
+    text-decoration: none;
+}
+.container{
+    background-color: grey;
+    width: 100%;
+    height: 61px;
+
+}
