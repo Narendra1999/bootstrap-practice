@@ -1,0 +1,9 @@
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status
+ssh-keygen -t rsa -b 4096 -C "narendra.singh@xeois.com"
+tail <path to id_rsa.pub> # Add this key to your Github account
+git remote add origin <ssh url.git>
+git push origin master
